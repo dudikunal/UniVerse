@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your College Recommendations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="results-page">
+  <!-- Results should be dynamically generated here based on backend logic -->
+  <h2>Recommended Colleges</h2>
+  <div class="college">
+    <h3>College Name</h3>
+    <p>NIRF Ranking: #</p>
+    <p>Cutoff Scores: #</p>
+    <p>Average Placements: #</p>
+    <a href="#">Explore More</a>
+  </div>
+  <!-- Repeat the above div for each college recommendation -->
+</div>
+</body>
+</html>
