@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="feedback-section">
+  <h2>We value your feedback</h2>
+  <form action="submit-feedback.html" method="POST">
+    <textarea name="feedback" rows="5" placeholder="Enter your feedback here..."></textarea>
+    <button type="submit" class="submit-button">Submit Feedback</button>
+  </form>
+</div>
+</body>
+</html>
