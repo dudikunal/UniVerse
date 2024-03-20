@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Your Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="input-form">
+  <form action="results-page.html" method="GET">
+    <label for="jeeRank">JEE Rank:</label>
+    <input type="number" id="jeeRank" name="jeeRank" required>
+    
+    <label for="boardPercentage">Board Percentage:</label>
+    <input type="number" id="boardPercentage" name="boardPercentage" required>
+    
+    <label for="desiredCourse">Desired Course:</label>
+    <input type="text" id="desiredCourse" name="desiredCourse" required>
+    
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+</div>
+</body>
+</html>
